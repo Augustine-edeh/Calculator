@@ -1,0 +1,109 @@
+/* GENERAL CONTAINER */
+#generalContainer {
+  width: 700px;
+  height: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* TABLE DATA */
+table tr td {
+  font-size: 6em;
+  text-align: center;
+  cellspacing: 200;
+  
+}
+
+
+/* TABLE */
+table {
+  background-color: #ECEFF1;
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse; 
+  
+}
+
+
+/* DISALAY SCREEN */
+#displayScreen {
+  background-color: black;
+  color: white;
+  height: 450px;
+  //margin: 0px;
+  //padding: 0px;
+  overflow: hidden;
+}
+
+
+/* DISALAY SCREEN INPUT */
+#_answer {
+  background-color: black;
+  color: white;
+  border: none;
+  margin: 0px;
+  padding: 10px;
+  width: 100%;
+  height: 180px;
+  position: relative;
+  top: 249.5px;
+  bottom: 0px;
+  font-size: 4.5em;
+}
+
+
+
+._operators {
+  background-color: #B0BEC5;
+  
+}
+
+
+
+.operators {
+  background-color: orange;
+  color: white;
+  margin: 0px;
+}
+
+
+
+#_0 {
+  text-align: left;
+  padding: 95px;
+}
+
+
+
+
+
+
+
+
+
+::selection {
+  color: pink;
+  font-size: 4em;
+}
+
+
+
+/*
+td[class=_operators] {
+  color: green;
+}
+*/
+
+
+
+
+
+
+// Check this kind of selection om Google
+//table tr td [class="_pperators"]{
+  //font-size: 6em;
+  //text-align: center;
+  //border: 1px solid black;
+  //background-color: yellow;
+}
